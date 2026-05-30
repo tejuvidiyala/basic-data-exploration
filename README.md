@@ -4,6 +4,7 @@ The goal of this task is to understand how raw data can be cleaned, transformed,
 
 ---
 
+
 ## Objective
 
 The objectives of this task are:
@@ -26,7 +27,23 @@ The objectives of this task are:
 
 **Dataset Link:**  
 https://www.kaggle.com/datasets/anvitkumar/shopping-dataset
+## Dataset Used
 
+For this project, the analysis was performed using the file:
+
+```text
+Combined_dataset.csv
+```
+
+This dataset contains ecommerce product information including product details, prices, ratings, reviews, and other related attributes.
+
+The cleaned output generated from this dataset is:
+
+```text
+cleaned_dataset.csv
+```
+
+Both the original dataset and cleaned dataset are included in this repository for reference.
 ### Features Used
 
 - product_id
