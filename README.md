@@ -190,7 +190,54 @@ The final cleaned dataset was used to generate summary statistics such as:
 These metrics provide a quick overview of the cleaned dataset.
 
 ---
+## Key Insights
 
+Some observations from the dataset:
+
+- Products with ratings greater than or equal to 4 were selected for analysis.
+- Price columns required cleaning before numerical operations could be performed.
+- Missing values were present in a few columns and were handled appropriately.
+- Derived columns such as `quantity` and `total_amount` helped simulate basic revenue analysis.
+- Filtering reduced the dataset size and allowed focus on highly rated products.
+
+- ## Challenges Faced
+
+During the project, the following challenges were encountered:
+
+- Price values were stored as text and required cleaning before analysis.
+- Missing values needed different handling strategies depending on the column type.
+- Some columns contained complex text and nested information that were not relevant to the assignment.
+- Selecting the most useful columns required understanding the dataset structure.
+- Managing data types correctly was important for calculations and filtering.
+
+- ## Limitations
+
+- The dataset does not contain actual purchase quantity information.
+- Quantity values were simulated for learning purposes.
+- Revenue calculations are estimates and not real business revenue.
+- Only basic data cleaning and exploration techniques were applied.
+- Advanced analytics and visualizations were outside the scope of this assignment.
+
+- ## Repository Contents
+
+- `Combined_dataset.csv` → Original dataset
+- `cleaned_dataset.csv` → Cleaned dataset after preprocessing
+- `data_cleaning_week_1.ipynb` → Jupyter Notebook containing all steps
+- `raw_dataset.jpeg` → Screenshot of raw dataset
+- `cleaned_dataset.jpeg` → Screenshot of cleaned dataset
+- `README.md` → Project documentation
+
+- ## Future Improvements
+
+Given more time, the following enhancements could be implemented:
+
+- Create visualizations using Matplotlib or Seaborn.
+- Perform category-wise and rating-wise analysis.
+- Analyze discount patterns across products.
+- Build an interactive dashboard using Power BI or Tableau.
+- Apply machine learning models for product rating prediction.
+
+- 
 # Learning Outcomes
 
 Through this project, I learned:
